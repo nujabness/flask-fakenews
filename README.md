@@ -11,7 +11,7 @@
 *EL ASSOURI* | *Mohammed*|
 
 ##Les routes
-###routes principales
+
 - path: "/entrainement"
     -
     La route "/entrainement" permet d'entrainer le model avec le corpus de base (news.csv). 
