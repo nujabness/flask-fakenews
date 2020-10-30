@@ -59,3 +59,7 @@
 - pull 
     -
         docker pull nujabness/fakenews-detector:fakenews
+
+- repository
+    -
+        https://hub.docker.com/repository/docker/nujabness/fakenews-detector
