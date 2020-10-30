@@ -46,3 +46,16 @@
     -
     La méthode nettoyage(string) prend en parametre le texte a nettoyer.
     elle retourn le texte tokenizé dans un tableau.
+    
+## Docker
+- build
+    -
+       docker build -t fakenews .
+
+- container
+    -
+         docker run -dit --name fakenews_container -p 80:80 fakenews
+
+- pull 
+    -
+        docker pull nujabness/fakenews-detector:fakenews
