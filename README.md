@@ -54,7 +54,7 @@
 
 - container
     -
-         docker run -dit --name fakenews_container -p 80:80 fakenews
+       docker run -dit --name fakenews_container -p 80:80 fakenews
 
 - pull 
     -
