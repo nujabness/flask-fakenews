@@ -10,7 +10,7 @@
 |--|--|
 *EL ASSOURI* | *Mohammed*|
 
-##Les routes
+## Les routes
 
 - path: "/entrainement"
     -
@@ -35,7 +35,7 @@
       r=requests.post(url,data=param)
       r.json()
     ```
-##Les méthodes
+## Les méthodes
 - doTraining(data)
     -
     La méthode doTraining(data) prend en parametre le DataSet avec lequel on doit entraîner le model.
