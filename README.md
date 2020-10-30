@@ -19,7 +19,7 @@
     **Exemple de requete**
     ```python
       route='/entrainement'
-      url='http://127.0.0.1:5000'+route
+      url='http://127.0.0.1'+route
       r=requests.post(url)
       r.json()
     ``` 
@@ -30,7 +30,7 @@
     **Exemple de requete**
     ```python
       route='/prediction'
-      url='http://127.0.0.1:5000'+route
+      url='http://127.0.0.1'+route
       param={'input_text':'Donald trump en ralation avec une organisation de burger musulman' }
       r=requests.post(url,data=param)
       r.json()
